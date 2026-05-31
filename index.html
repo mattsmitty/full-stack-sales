@@ -9,7 +9,7 @@
 <style>
 /* ============================================================
    FULL STACK SALES - Editorial / Light (Cadre AI-inspired)
-   ============================================================ */
+   ============================================================ *
 /* Fonts loaded via <link> in <head> for priority + correct WONK axis */
 
 :root{
@@ -264,7 +264,7 @@ footer a:hover{color:var(--accent)}
 </div></div></section>
 
 <section class="trust"><div class="wrap">
-<p>Trusted by teams that have scaled</p><div class="logos"><span>StackCommerce</span><span>AppSumo</span><span>Pipedrive</span><span>Vasco</span><span>Trumpet</span></div></div></section>
+<p>Trusted by teams that have scaled</p><div class="logos"><span>Boost Mobile</span><span>AppSumo</span><span>Pipedrive</span><span>Cisco</span><span>Trumpet</span></div></div></section>
 
 <section><div class="wrap">
 <div class="section-head center reveal"><span class="kicker">What We Do</span>
@@ -349,7 +349,7 @@ document.querySelectorAll('nav.links a').forEach(a=>{if(a.getAttribute('href')==
   var inlineEl=document.querySelector('.calendly-inline-widget');
   if(inlineEl){
     // Booking page: explicitly init the inline widget (belt-and-suspenders) and skip the badge
-    window.addEventListener('load',function(){
+    window.addEventListener('load',function()
       ready(function(){
         if(inlineEl.children.length===0){
           Calendly.initInlineWidget({ url: inlineEl.getAttribute('data-url'), parentElement: inlineEl });
